@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #000000;
+}
+
+header {
+    padding: 60px 8% 30px 8%;
+    background-color: #f7f7f7;
+    border-bottom: 2px solid #000000;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header h1 {
+    color: #000000;
+    margin: 0;
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: -1px;
+    line-height: 1.1;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #000000;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.fila {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.fila.inversa {
+    flex-direction: row-reverse;
+}
+
+.fila img {
+    width: 45%;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.fila-texto {
+    width: 55%;
+}
+
+.fila-texto h2 {
+    color: #000000;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    letter-spacing: -0.5px;
+}
+
+.fila-texto p {
+    font-size: 21px;
+    line-height: 2;
+    color: #000000;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.columnas-dos {
+    display: flex;
+    gap: 60px;
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+.columna {
+    flex: 1;
+    background: #ffffff;
+    padding: 50px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.columna img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.columna h3 {
+    color: #000000;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.columna p {
+    font-size: 20px;
+    line-height: 1.9;
+    color: #000000;
+    margin: 0;
+}
+
+footer {
+    background-color: #f7f7f7;
+    color: #000000;
+    text-align: left;
+    width: 90%;
+    max-width: 1200px;
+    margin: 120px auto 60px auto;
+    padding: 30px 0;
+    border-top: 1px solid #cccccc;
+    font-size: 16px;
+    font-weight: 600;
+}
